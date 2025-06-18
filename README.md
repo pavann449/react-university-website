@@ -34,6 +34,7 @@ A fully responsive university website template developed using [React JS](https:
 ## Installation
 ```bash
 git clone https://github.com/Ionut-Cora/react-university-website
+cd react-university-website
 npm install
 npm start
 ```
