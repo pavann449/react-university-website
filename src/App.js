@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import { Link, Routes, Route } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import { faSquareFacebook, faSquareInstagram, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -27,11 +27,11 @@ function App() {
         <Container>
           <Navbar.Brand>
             <Link to="/" className='navbar-brand d-flex align-items-center' style={{color: "#dc3545"}}>
-              <FontAwesomeIcon icon={faGraduationCap} size='xl' />
+              <FontAwesomeIcon icon={faLaptopCode} size='xl' />
               <span className='mx-2 text-light lh-1 fw-semibold'>
-                University of
+                pablo
                 <br></br>
-                Arts & Tech
+                university
               </span>
             </Link>
           </Navbar.Brand>
@@ -114,7 +114,9 @@ function App() {
                   <p>Main Address: 47 High Street, London, UK</p>
                 </li>
                 <li>
+                  /*
                   <p>Phone Number: <a href="tel:0900800700" className='text-dark'>0900800700</a></p>
+                  */
                 </li>
                 <li>
                   <p>Email: <a href="mailto:london@university.com" className='text-dark'>london@university.com</a></p>
@@ -125,7 +127,9 @@ function App() {
         </div>
         <div className='bg-body-tertiary'>
           <div className='container'>
-            <p className='p-3 m-0 text-center'>&copy; {newDate} University of Arts & Tech / made by <Link to='https://www.ionutcora.com/' style={{textDecoration: 'none', color: '#000000'}} target="_blank">Ionut Cora</Link></p>
+           /*
+            <p className='p-3 m-0 text-center'>&copy; {newDate} pablo university / made by <Link to='https://www.ionutcora.com/' style={{textDecoration: 'none', color: '#000000'}} target="_blank">Ionut Cora</Link></p>
+          */
           </div>
         </div>
       </footer>
